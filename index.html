@@ -1,83 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>loja virtual</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,100&family=Outfit:wght@300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/main.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
 </head>
-<body>
-   <header>
-    <div class="container">
-        <h1>Lojinha</h1>
-        <nav>        
-            <ul class="menu">
-                <li>
-                    <a href="#">produtos</a>
-                </li>
-                <li>
-                    <a href="#">Sobre a Lojinha</a>
-                </li>
-            </ul>
-            <div class="clear"></div>
-        </nav>        
-    </div>      
-   </header>  
-   <div class="conteudo">
-    <section class="destaque">
-        <h2>Em destaque</h2>
-        <ul class="container-flex lista-roupas">
-            <li>
-                <img src="https://citerol.vteximg.com.br/arquivos/ids/167873-1000-1000/1_CAMISETA_BASIC_UNISSEX_PRETA.jpg?v=637213490487000000" alt="Camisa preta lisa">
-            <h3>Camisa preta</h3>
-            <p>
-                camisa preta lisa
-            </p>
-            <strong>R$ 70,00</strong>
-            <button type="button">adicionar ao carrinho</button>
-            </li>
-            <li>
-                <img src="https://citerol.vteximg.com.br/arquivos/ids/167873-1000-1000/1_CAMISETA_BASIC_UNISSEX_PRETA.jpg?v=637213490487000000" alt="Camisa preta lisa">
-            <h3>Camisa preta</h3>
-            <p>
-                camisa preta lisa
-            </p>
-            <strong>R$ 70,00</strong>
-            <button type="button">adicionar ao carrinho</button>
-            </li>
-            <li>
-                <img src="https://citerol.vteximg.com.br/arquivos/ids/167873-1000-1000/1_CAMISETA_BASIC_UNISSEX_PRETA.jpg?v=637213490487000000" alt="Camisa preta lisa">
-            <h3>Camisa preta</h3>
-            <p>
-                camisa preta lisa
-            </p>
-            <strong>R$ 70,00</strong>
-            <button type="button">adicionar ao carrinho</button>
-            </li>
-            <li>
-                <img src="https://citerol.vteximg.com.br/arquivos/ids/167873-1000-1000/1_CAMISETA_BASIC_UNISSEX_PRETA.jpg?v=637213490487000000" alt="Camisa preta lisa">
-            <h3>Camisa preta</h3>
-            <p>
-                camisa preta lisa
-            </p>
-            <strong>R$ 70,00</strong>
-            <button type="button">adicionar ao carrinho</button>
-            </li>
-        </ul>
-    </section>    
-    <section id="sobre-a-loja">
-        <div class="lojinha">               
-            <img src="https://sennda.com.br/wp-content/uploads/2018/11/loja-roupas-interior-770x366.jpg" />      
-           <div>
-            <h2>Sobre a lojinha</h2> 
-            <h3> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis assumenda distinctio velit minus eligendi ipsam soluta quam obcaecati consectetur eos modi sequi praesentium totam, tempora, nulla harum facere commodi. Quam!</h3>        
-        </div>   
-    </div>   
-    </section>
-   </div>     
+<body>  
+    <div class="row">
+        <div class="col">
+            <h1>Inscreva-se</h1>
+            <form>
+                <label class="form-label" for="nome">Seu nome:</label>
+                <input class="form-control" type="text" id="nome"/>
+                <label class="form-label" for="email">Seu email:</label>
+                <input class="form-control" type="email" id="email"/>
+                <label class="form-label" for="telefone">Seu telefone:</label>
+                <input class="form-control" type="tel" id="telefone"/>
+                <button class="btn btn-success">enviar</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
